@@ -1,2 +1,3 @@
 FROM almalinux
-ADD https://github.com/techworldwithsiva/dockerfiles/tree/master/COPY/qi /tmp
+ADD https://raw.githubusercontent.com/trussworks/terraform-aws-s3-private-bucket/main/main.tf /tmp/
+ADD ADD apache-tomcat-9.0.73-embed.tar.gz /tmp/
